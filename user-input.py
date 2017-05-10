@@ -31,4 +31,4 @@ while guess != result:
 # 3) We'll improve on the print formatting.
 # 4) We'll summarize our test results.
 
-# Ready? Go to 'week3.py'!!
+# Ready? Go to 'math-quiz.py'!!

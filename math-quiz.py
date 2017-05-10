@@ -1,4 +1,4 @@
-# This week we use the randint function from the random library.
+# Here we use the randint function from the random library.
 # We are going to ask the user how many questions they want to answer.
 # Also, we are introducing print formatting in python3.
 # We use a boolean to control the increment of correct answers.
@@ -25,7 +25,7 @@ first_try = True
 # 'randint' takes 2 numbers and will return a random number between
 # and including those two passed-in numbers.
 def getnum():
-    return random.randint(0,15)
+    return random.randint(1,15)
 
 for i in range(how_many):
   # Now we call the function we defined above twice, to get our 2 
@@ -36,7 +36,7 @@ for i in range(how_many):
   # The Python3 print formatting here is going to require some 
   # explanation during our club time...but you can copy here if you 
   # are going ahead...
-  print("{}. Product of {} and {}?".format(i+1, number1, number2))
+  print("{index}. What is {first} x {second}?".format(index=i+1, first=number1, second=number2))
 
   # Now we go back to the logic we worked out last week..
   result = number1 * number2
@@ -70,8 +70,8 @@ for i in range(how_many):
 
 # Summary of results
 # Look at the print formatting here, we'll explain during club time...
-print("You tried {} questions.".format(how_many))
-print("You answered {} correct on the first try!".format(correct))
+print("You tried {num} questions.".format(num=how_many))
+print("You answered {firstCorrect} correct on the first try!".format(firstCorrect=correct))
 # This format says 'print the quotient of correct/how_many as a percentage,
 # to the nearest tenth of a percent'
-print("Your grade is {:.1%}.".format(correct / how_many))
+print("Your grade is {grade:.1%}.".format(grade=float(correct/how_many)))
