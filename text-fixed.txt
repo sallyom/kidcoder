@@ -1,0 +1,7 @@
+Hello! This is my {adjective} madlibs-y program. 
+My favorite thing to do besides madlibs is {activity}, I do this {number} times per week.
+I love to eat {food} every day.  
+If I could live anywhere in the world, I would live in {place} in a {type-of-house}.
+When I grow up, I want to be a {job-title}.
+I have {number} fidget-spinners.
+
